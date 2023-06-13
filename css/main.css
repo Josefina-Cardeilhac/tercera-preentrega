@@ -1,0 +1,143 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-align: center; }
+
+.contenedor-general {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center; }
+
+nav {
+  display: flex;
+  background-color: #a0f8a0;
+  height: 15%;
+  width: 100%; }
+  nav .logo-img img {
+    width: 12vh; }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    justify-self: end; }
+
+.quienes-somos {
+  display: flex;
+  flex-direction: column;
+  background-color: floralwhite;
+  width: 100%;
+  height: 100%;
+  padding: 20px; }
+
+.contenedor-carrusel {
+  background-color: floralwhite;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+  .contenedor-carrusel .carousel-inner .carousel-item img {
+    border-radius: 20px;
+    width: 70vh; }
+
+.eco-friendly {
+  background-color: floralwhite;
+  height: 70%; }
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #a0f8a0; }
+  footer .footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+  footer .footer-text-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+
+.sellos2 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center; }
+
+.sellos2 img {
+  width: 12vh; }
+
+.sellos1 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center; }
+
+.sellos1 img {
+  width: 30vh; }
+
+.conoce-productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: floralwhite;
+  width: 100%;
+  height: 100%;
+  padding: 20px; }
+
+.card {
+  width: 35vh;
+  height: 55vh; }
+
+.primer-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: floralwhite; }
+
+.segundo-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: #a0f8a0; }
+
+/* Media query para dispositivos móviles */
+@media (max-width: 767px) {
+  body .sellos1 {
+    display: none; } }
+
+main .btn {
+  margin-top: 1vh;
+  margin-bottom: 2vh; }
+
+.card {
+  width: 25vh;
+  height: 35vh; }
+
+.card-text {
+  display: none; }
+
+.eco-friendly {
+  font-display: none; }
+
+/* Media query para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos para tablets */ }
+
+/* Media query para desktops */
+@media (min-width: 1023px) {
+  footer .sellos2 {
+    display: none; } }

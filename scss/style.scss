@@ -1,0 +1,186 @@
+@import "./extra/vars";
+
+* {
+    margin: $margen-general;
+    padding: $padding-general;
+    border: $borde-nulo;
+    outline: $outline-nulo;
+    text-align: center;
+}
+
+.contenedor-general {
+    display: flex;
+    flex-direction: column;
+    height: $vista-total;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    background-color: $color-principal;
+    height: 15%;
+    width: 100%;
+
+    .logo-img img {
+        width: $img-small;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        justify-self: end;
+
+    }
+}
+
+.quienes-somos {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-secundario;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+
+.contenedor-carrusel {
+    background-color: $color-secundario;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+    .carousel-inner{
+        .carousel-item img {
+            border-radius: $radio-img;
+            width: $img-large;
+        }
+    }
+
+}
+
+.eco-friendly {
+    background-color: $color-secundario;
+    height: 70%;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-principal;
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+        .footer-text-container {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+    }
+
+
+    .sellos2 {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    .sellos2 img {
+        width: $img-small;
+    }
+
+
+
+.sellos1 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.sellos1 img {
+    width: $img-mid;
+}
+
+.conoce-productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: $color-secundario;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.card {
+    width: $card-width ;
+    height: $card-height;
+}
+
+.primer-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: $color-secundario;
+}
+
+.segundo-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: $color-principal;
+}
+
+  /* Media query para dispositivos móviles */
+  @media (max-width: 767px) {
+    body .sellos1 {
+      display: none;
+    }
+}
+
+    main .btn {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+  }
+  
+  .card{
+    width:25vh ;
+    height:35vh ;
+  }
+  .card-text{
+    display: none;
+  }
+  .eco-friendly{
+    font-display: none;
+  }
+  
+
+/* Media query para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para tablets */
+  }
+  
+/* Media query para desktops */
+@media (min-width: 1023px) {
+    footer .sellos2{
+      display: none;
+    }
+}
