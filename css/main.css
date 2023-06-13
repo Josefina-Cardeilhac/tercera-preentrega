@@ -115,23 +115,36 @@ footer {
   background-color: #a0f8a0; }
 
 /* Media query para dispositivos móviles */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   body .sellos1 {
-    display: none; } }
-
-main .btn {
-  margin-top: 1vh;
-  margin-bottom: 2vh; }
-
-.card {
-  width: 25vh;
-  height: 35vh; }
-
-.card-text {
-  display: none; }
-
-.eco-friendly {
-  font-display: none; }
+    display: none; }
+  main .btn {
+    margin-top: 1vh;
+    margin-bottom: 2vh; }
+  .segundo-contenedor {
+    background-color: initial; }
+  main .tit4 {
+    display: none; }
+  main {
+    padding-bottom: 5px; }
+  .card {
+    width: 25vh;
+    height: 35vh;
+    margin-block: 5vh; }
+  .card-text {
+    display: none; }
+  .contenedor-general {
+    margin-block: 10vh;
+    height: fit-content; }
+  .segundo-contenedor {
+    margin-block: 5vh;
+    height: fit-content; }
+  .eco-friendly {
+    display: none; }
+  .texto-nosotras {
+    display: none; }
+  .eco-friendly {
+    font-display: none; } }
 
 /* Media query para tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
