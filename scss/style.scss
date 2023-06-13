@@ -172,6 +172,8 @@ footer {
     width:25vh ;
     height:35vh ;
     margin-block: 5vh;
+    margin-left: 20%;
+   
   }
   .card-text{
     display: none;
@@ -179,10 +181,12 @@ footer {
   .contenedor-general{
     margin-block: 10vh;
     height: fit-content;
+    
   }
   .segundo-contenedor{
     margin-block: 5vh;
     height: fit-content;
+
   }
 .eco-friendly{
     display: none;
@@ -198,6 +202,12 @@ footer {
 /* Media query para tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
     /* Estilos para tablets */
+  }.card{
+    width:25vh ;
+    height:35vh ;
+    margin-block: 5vh;
+    margin-left: 30%;
+   
   }
   
 /* Media query para desktops */

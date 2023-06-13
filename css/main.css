@@ -130,7 +130,8 @@ footer {
   .card {
     width: 25vh;
     height: 35vh;
-    margin-block: 5vh; }
+    margin-block: 5vh;
+    margin-left: 20%; }
   .card-text {
     display: none; }
   .contenedor-general {
@@ -149,6 +150,12 @@ footer {
 /* Media query para tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
   /* Estilos para tablets */ }
+
+.card {
+  width: 25vh;
+  height: 35vh;
+  margin-block: 5vh;
+  margin-left: 30%; }
 
 /* Media query para desktops */
 @media (min-width: 1023px) {
