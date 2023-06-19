@@ -115,7 +115,7 @@ footer {
   background-color: #a0f8a0; }
 
 /* Media query para dispositivos móviles */
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px) {
   body .sellos1 {
     display: none; }
   main .btn {
@@ -148,7 +148,7 @@ footer {
     font-display: none; } }
 
 /* Media query para tablets */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 600px) and (max-width: 1023px) {
   /* Estilos para tablets */ }
 
 .card {
@@ -157,7 +157,10 @@ footer {
   margin-block: 5vh;
   margin-left: 30%; }
 
+.texto-nosotras {
+  display: none; }
+
+body .sellos1 {
+  display: none; }
+
 /* Media query para desktops */
-@media (min-width: 1023px) {
-  footer .sellos2 {
-    display: none; } }
