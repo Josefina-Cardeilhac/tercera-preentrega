@@ -180,8 +180,8 @@ footer {
   .sellos1 {
     display: none; }
   footer {
-    position: sticky;
-    bottom: 0; } }
+    bottom: 0;
+    width: 100%; } }
 
 /* Media query para tablets */
 @media (min-width: 481px) and (max-width: 1023px) {
