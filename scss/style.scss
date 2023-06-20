@@ -15,25 +15,20 @@
     justify-content: center;
     align-items: center;
 }
-
 nav {
-    display: flex;
-    background-color: $color-principal;
-    height: 15%;
-    width: 100%;
+  display: flex;
+  background-color: $color-principal;
+  height: 15%;
+  width: 100%;
 
-    .logo-img img {
-        width: $img-small;
-    }
-
-    ul {
-        display: flex;
-        justify-content: space-around;
-        justify-self: end;
-
-    }
+  .logo-img img {
+      width: $img-small;
+  }
 }
-
+.nav-link{
+  margin-left: 40px;
+  padding: 30px;
+}
 .quienes-somos {
     display: flex;
     flex-direction: column;
@@ -65,6 +60,15 @@ nav {
 .eco-friendly {
     background-color: $color-secundario;
     height: 70%;
+}
+
+.text-center{
+  padding-top: 4rem;
+}
+
+.texto-nosotras{
+  padding-top: 2rem;
+  margin: 5rem
 }
 
 footer {
@@ -151,9 +155,7 @@ footer {
 
   /* Media query para dispositivos móviles */
   @media (min-width: 320px) and (max-width: 480px) {
-    body .sellos1 {
-      display: none;
-    }
+
     main .btn {
     margin-top: 1vh;
     margin-bottom: 2vh;
@@ -197,26 +199,39 @@ footer {
   .eco-friendly{
     font-display: none;
   }
+  .sellos1 {
+    display: none;
+  }
 }
 
 /* Media query para tablets */
-@media (min-width: 600px) and (max-width: 1023px) {
-    /* Estilos para tablets */
-  }.card{
+@media (min-width: 481px) and (max-width: 1023px) {
+  .card{
     width:25vh ;
     height:35vh ;
     margin-block: 5vh;
     margin-left: 30%;
    
   }
+  main .btn {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+  }
   .texto-nosotras{
     display: none;
   }
-  body .sellos1 {
+  .sellos1 {
     display: none;
   }
+  footer{
+    bottom: 0%;
+  }
+}
   
 /* Media query para desktops */
-@media (min-width: 1024px) and (max-width: 1200px) {
-   
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+ .sellos2{
+  display: none;
+}
 }
