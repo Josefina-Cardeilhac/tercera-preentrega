@@ -7,6 +7,9 @@
     outline: $outline-nulo;
     text-align: center;
 }
+body{
+  height: 100%;
+}
 
 .contenedor-general {
     display: flex;
@@ -227,6 +230,7 @@ footer {
     display: none;
   }
   footer{
+  position: sticky;
   bottom: 0;
   width: 100%;
   }
