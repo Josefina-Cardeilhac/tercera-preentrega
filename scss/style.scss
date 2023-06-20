@@ -7,16 +7,14 @@
     outline: $outline-nulo;
     text-align: center;
 }
-body{
-  height: 100%;
-}
 
-.contenedor-general {
-    display: flex;
-    flex-direction: column;
-    height: $vista-total;
-    justify-content: center;
-    align-items: center;
+body{
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
 }
 nav {
   display: flex;
@@ -188,9 +186,6 @@ footer {
     margin-top: 1vh;
     margin-bottom: 2vh;
   }
-  .segundo-contenedor{
-    background-color: initial;
-  }
   main .tit4{
     display: none;
   }
@@ -208,11 +203,6 @@ footer {
   .quienes-somos{
     margin-top: 50px;
   }
-  .contenedor-carrusel{
-    margin-top: 70px;
-    margin-bottom: 70px;
-  }
-  
   a.btn{
     margin-top: 80px;
     margin-bottom: 70px;
@@ -221,18 +211,13 @@ footer {
     display: none;
 }
  .texto-nosotras{
-    display: none;
+    display:none ;
   }
   .eco-friendly{
     font-display: none;
   }
-  .sellos1 {
+  .sellos1{
     display: none;
-  }
-  footer{
-  position: sticky;
-  bottom: 0;
-  width: 100%;
   }
 }
 
@@ -249,9 +234,6 @@ footer {
   }
   .sellos1 {
     display: none;
-  }
-  footer{
-    bottom: 0%;
   }
 }
   

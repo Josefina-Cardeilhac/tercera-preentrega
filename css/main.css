@@ -7,14 +7,12 @@
   text-align: center; }
 
 body {
-  height: 100%; }
-
-.contenedor-general {
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
+
+main {
+  flex: 1; }
 
 nav {
   display: flex;
@@ -154,8 +152,6 @@ footer {
   main .btn {
     margin-top: 1vh;
     margin-bottom: 2vh; }
-  .segundo-contenedor {
-    background-color: initial; }
   main .tit4 {
     display: none; }
   main {
@@ -168,9 +164,6 @@ footer {
     margin-bottom: 30px; }
   .quienes-somos {
     margin-top: 50px; }
-  .contenedor-carrusel {
-    margin-top: 70px;
-    margin-bottom: 70px; }
   a.btn {
     margin-top: 80px;
     margin-bottom: 70px; }
@@ -181,11 +174,7 @@ footer {
   .eco-friendly {
     font-display: none; }
   .sellos1 {
-    display: none; }
-  footer {
-    position: sticky;
-    bottom: 0;
-    width: 100%; } }
+    display: none; } }
 
 /* Media query para tablets */
 @media (min-width: 481px) and (max-width: 1023px) {
@@ -195,9 +184,7 @@ footer {
   .texto-nosotras {
     display: none; }
   .sellos1 {
-    display: none; }
-  footer {
-    bottom: 0%; } }
+    display: none; } }
 
 /* Media query para desktops */
 @media (min-width: 1024px) and (max-width: 1440px) {
