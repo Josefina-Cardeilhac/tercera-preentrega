@@ -178,7 +178,10 @@ footer {
   .eco-friendly {
     font-display: none; }
   .sellos1 {
-    display: none; } }
+    display: none; }
+  footer {
+    position: sticky;
+    bottom: 0; } }
 
 /* Media query para tablets */
 @media (min-width: 481px) and (max-width: 1023px) {

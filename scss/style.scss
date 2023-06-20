@@ -226,6 +226,10 @@ footer {
   .sellos1 {
     display: none;
   }
+  footer{
+    position: sticky;
+    bottom: 0;
+  }
 }
 
 /* Media query para tablets */
