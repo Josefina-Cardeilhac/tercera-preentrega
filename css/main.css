@@ -98,46 +98,20 @@ footer {
   height: 100%;
   padding: 20px; }
 
-.card {
-  width: 35vh;
-  height: 55vh; }
-
-.primer-contenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  background-color: floralwhite; }
-
-.segundo-contenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  background-color: #a0f8a0; }
-
 .productos {
   max-width: 1200px;
   padding: 10px;
   margin: auto;
   display: flex;
-  justify-content: space-between;
-  /* oculto lo que queda fuera del .contenedor */
-  contain: paint; }
+  justify-content: space-between; }
 
-/* SECCION CONTENEDOR DE ITEMS */
+/* ITEMS */
 .productos .contenedor-items {
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-gap: 30px;
   grid-row-gap: 30px;
-  /* width: 60%; */
   width: 100%;
   transition: .3s; }
 
@@ -183,19 +157,20 @@ footer {
     display: none; }
   main {
     padding-bottom: 5px; }
-  .card {
-    width: 25vh;
-    height: 35vh;
-    margin-block: 5vh;
-    margin-left: 20%; }
-  .card-text {
-    display: none; }
-  .contenedor-general {
-    margin-block: 10vh;
-    height: fit-content; }
-  .segundo-contenedor {
-    margin-block: 5vh;
-    height: fit-content; }
+  main.home {
+    margin-top: 70px;
+    margin-bottom: 150px; }
+  img.hierbas {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+  .quienes-somos {
+    margin-top: 50px; }
+  .contenedor-carrusel {
+    margin-top: 70px;
+    margin-bottom: 70px; }
+  a.btn {
+    margin-top: 80px;
+    margin-bottom: 70px; }
   .eco-friendly {
     display: none; }
   .texto-nosotras {
@@ -207,11 +182,6 @@ footer {
 
 /* Media query para tablets */
 @media (min-width: 481px) and (max-width: 1023px) {
-  .card {
-    width: 25vh;
-    height: 35vh;
-    margin-block: 5vh;
-    margin-left: 30%; }
   main .btn {
     margin-top: 1vh;
     margin-bottom: 2vh; }
