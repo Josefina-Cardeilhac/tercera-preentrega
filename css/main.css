@@ -149,42 +149,46 @@ footer {
 
 /* Media query para dispositivos móviles */
 @media (min-width: 320px) and (max-width: 480px) {
-  main .btn {
-    margin-top: 1vh;
-    margin-bottom: 2vh; }
-  main .tit4 {
-    display: none; }
-  main {
-    padding-bottom: 5px; }
-  main.home {
-    margin-top: 70px;
-    margin-bottom: 150px; }
-  img.hierbas {
-    margin-top: 20px;
-    margin-bottom: 30px; }
-  .quienes-somos {
-    margin-top: 50px; }
-  a.btn {
-    margin-top: 80px;
-    margin-bottom: 70px; }
-  .eco-friendly {
-    display: none; }
-  .texto-nosotras {
-    display: none; }
-  .eco-friendly {
-    font-display: none; }
-  .sellos1 {
-    display: none; } }
+  body {
+    font-size: 18px; }
+    body main .btn {
+      margin-top: 1vh;
+      margin-bottom: 2vh; }
+    body main .tit4 {
+      display: none; }
+    body main {
+      padding-bottom: 5px; }
+    body main.home {
+      margin-top: 70px;
+      margin-bottom: 150px; }
+    body img.hierbas {
+      margin-top: 20px;
+      margin-bottom: 30px; }
+    body .quienes-somos {
+      margin-top: 50px; }
+    body a.btn {
+      margin-top: 80px;
+      margin-bottom: 70px; }
+    body .eco-friendly {
+      display: none; }
+    body .texto-nosotras {
+      display: none; }
+    body .eco-friendly {
+      font-display: none; }
+    body .sellos1 {
+      display: none; } }
 
 /* Media query para tablets */
 @media (min-width: 481px) and (max-width: 1023px) {
-  main .btn {
-    margin-top: 1vh;
-    margin-bottom: 2vh; }
-  .texto-nosotras {
-    display: none; }
-  .sellos1 {
-    display: none; } }
+  body {
+    font-size: 18px; }
+    body main .btn {
+      margin-top: 1vh;
+      margin-bottom: 2vh; }
+    body .texto-nosotras {
+      display: none; }
+    body .sellos1 {
+      display: none; } }
 
 /* Media query para desktops */
 @media (min-width: 1024px) and (max-width: 1440px) {

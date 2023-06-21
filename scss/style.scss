@@ -180,7 +180,11 @@ footer {
 }
 
   /* Media query para dispositivos móviles */
+
   @media (min-width: 320px) and (max-width: 480px) {
+     body{
+    font-size: 18px;
+  
 
     main .btn {
     margin-top: 1vh;
@@ -218,11 +222,14 @@ footer {
   }
   .sellos1{
     display: none;
+    }
   }
 }
 
 /* Media query para tablets */
 @media (min-width: 481px) and (max-width: 1023px) {
+  body{
+    font-size: 18px;
 
   main .btn {
     margin-top: 1vh;
@@ -234,6 +241,7 @@ footer {
   }
   .sellos1 {
     display: none;
+  }
   }
 }
   
