@@ -188,7 +188,8 @@ footer {
     body .productos {
       font-size: 20px; }
     body .container-text-center {
-      margin: 120px; }
+      margin: 120px;
+      padding: 26px; }
     body .texto-nosotras {
       display: none; }
     body .sellos1 {
