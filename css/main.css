@@ -199,5 +199,5 @@ footer {
 
 /* Media query para desktops */
 @media (min-width: 1024px) and (max-width: 1440px) {
-  .sellos2 {
+  footer .sellos2 {
     display: none; } }
