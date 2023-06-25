@@ -1,0 +1,10 @@
+
+
+
+@mixin productos ($max-width, $padding, $margin, $display, $justify-content){
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}

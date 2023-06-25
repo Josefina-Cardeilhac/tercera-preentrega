@@ -150,7 +150,7 @@ footer {
 /* Media query para dispositivos móviles */
 @media (min-width: 320px) and (max-width: 480px) {
   body {
-    font-size: 18px; }
+    font-size: 22px; }
     body main .btn {
       margin-top: 1vh;
       margin-bottom: 2vh; }
@@ -181,14 +181,20 @@ footer {
 /* Media query para tablets */
 @media (min-width: 481px) and (max-width: 1023px) {
   body {
-    font-size: 18px; }
+    font-size: 30px; }
     body main .btn {
       margin-top: 1vh;
       margin-bottom: 2vh; }
+    body .productos {
+      font-size: 20px; }
+    body .container-text-center {
+      margin: 120px; }
     body .texto-nosotras {
       display: none; }
     body .sellos1 {
-      display: none; } }
+      display: none; }
+  footer {
+    font-size: 25px; } }
 
 /* Media query para desktops */
 @media (min-width: 1024px) and (max-width: 1440px) {
