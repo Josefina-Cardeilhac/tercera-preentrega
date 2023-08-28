@@ -1,148 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Ingresá a nuestra página web i descubrí los productos que tenemos para vos!">
-      <!--link boostrap-->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-     <!--link CSS-->
-     <link rel="stylesheet" href="../css/main.css">
-    <title>productos</title>
+    <meta name="description" content="Ingresá a nuestra página web y descubrí los productos que tenemos para vos!">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Productos</title>
 </head>
+
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <div class="logo-img">
-                    <img src="../img/Logotipo Azalea - Sin fondo.png" alt="imagen de logotipo del emprendimiento">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="logo-img">
+                        <img src="../img/Logotipo Azalea - Sin fondo.png" alt="Logotipo del emprendimiento">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="sobre-nosotras.html">Sobre Nosotras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="redes.html">Redes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
                 </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="sobre-nosotras.html">Sobre Nosotras</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="redes.html">Redes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a>
-                    </li>
-                </ul>
+                <div id="carrito-container" class="border border-2 rounded p-4">
+                    <!-- Aquí se mostrará el contenido del carrito -->
+                </div>
+                <div id="vaciar-carrito"></div>
             </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
     <main>
-        <h1>conocé nuestros productos</h1>
-
+        <h1>Conocé nuestros productos</h1>
         <div class="productos">
-              <div class="contenedor-items">
-                  <div class="item">
-                      <span class="titulo-item">Shampoo Arcilla</span>
-                      <img src="../img/cabello/sh-arcilla.jpg" alt="imágen de shampoo sólido de arcilla blanca" class="img-item">
-                      <button class="boton-item">Agregar al Carrito</button>
-                  </div>
-                  <div class="item">
-                      <span class="titulo-item">Shampoo carbon activado</span>
-                      <img src="../img/cabello/sh-carbon.jpg" alt="imágen de shampoo sólido de carbón" class="img-item">
-                      <button class="boton-item">Agregar al Carrito</button>
-                  </div>
-                  <div class="item">
-                      <span class="titulo-item">Shampoo avena</span>
-                      <img src="../img/cabello/sh-avena.jpg" alt="imágen de shampoo sólido de avena" class="img-item">
-                      <button class="boton-item">Agregar al Carrito</button>
-                  </div>
-                  <div class="item">
-                      <span class="titulo-item">Shampoo ortiga</span>
-                      <img src="../img/cabello/sh-ortiga.JPG" alt="imágen de shampoo sólido de ortiga" class="img-item">
-                      <button class="boton-item">Agregar al Carrito</button>
-                  </div>
-                  <div class="item">
-                      <span class="titulo-item">Acondicionador sólido</span>
-                      <img src="../img/cabello/ac-solido.jpg" alt="imágen de acondicionador sólido" class="img-item">
-                      <button class="boton-item">Agregar al Carrito</button>
-                  </div>
-                  <div class="item">
-                    <span class="titulo-item">Acondicionador en emulsión</span>
-                    <img src="../img/cabello/ac-emulsión.jpg" alt="imágen de acondicionador en emulsión" class="img-item">
-                    <button class="boton-item">Agregar al Carrito</button>
-                </div>
-                  <div class="item">
-                      <span class="titulo-item">Jabones de Castilla</span>
-                      <img src="../img/cuerpo/jabones-1.JPG" alt="imágen de jabones de castilla" class="img-item">
-                      <button class="boton-item">Agregar al Carrito</button>
-                  </div>
-                  <div class="item">
-                      <span class="titulo-item">Crema para manos y cuerpo</span>
-                      <img src="../img/cuerpo/crema-myc.jpg" alt="imágen de crema para manos y cuerpo" class="img-item">
-                     <button class="boton-item">Agregar al Carrito</button>
-                  </div>
-                  <div class="item">
-                      <span class="titulo-item">Bálsamo labial</span>
-                      <img src="../img/cuerpo/balsamo.jpg" alt="imágen de bálsamo labial" class="img-item">
-                     <button class="boton-item">Agregar al Carrito</button>
-                  </div>
-                  <div class="item">
-                      <span class="titulo-item">Roll-on labial</span>
-                      <img src="../img/cuerpo/roll-on.jpg" alt="imágen de roll-on labial" class="img-item">               
-                      <button class="boton-item">Agregar al Carrito</button>
-                  </div>
-                  <div class="item">
-                    <span class="titulo-item">Sanitizantes</span>
-                    <img src="../img/cuerpo/sanitizantes.jpg" alt="imágen de sanitizantes para manos" class="img-item">               
-                    <button class="boton-item">Agregar al Carrito</button>
-                </div>
-                <div class="item">
-                    <span class="titulo-item">Jaboneras de madera</span>
-                    <img src="../img/cuerpo/jaboneras.jpg" alt="imágen de jaboneras de madera" class="img-item">               
-                    <button class="boton-item">Agregar al Carrito</button>
-                </div>
-              </div>
-          </div>
+            <div class="contenedor-items" id="contenedor-items">
+                <!-- Los productos se cargarán aquí -->
+            </div>
+        </div>
     </main>
-    <div class="sellos1 mt-5">
-        <img src="../img/sello-1.png" alt="imágen de sellos eco-friendly">
-        <img src="../img/sello-2.png" alt="imágen de sellos eco-friendly">
-        <img src="../img/sello-3.png" alt="imágen de sellos eco-friendly">
-    </div>
-  
-  <footer>
-      <div class="sellos2">
-          <img src="../img/sello-1.png" alt="imágen de sellos eco-friendly">
-          <img src="../img/sello-2.png" alt="imágen de sellos eco-friendly">
-          <img src="../img/sello-3.png" alt="imágen de sellos eco-friendly">
-      </div>
-  <div class="footer-container">
-      <div class="footer-text-container">
-          <p>
-              copyrigth 2023
-              <br> politica de privacidad <br>
-          </p>
-          <p>
-              horario de atencion: <br>
-              <br> lunes a viernes <br>
-              <br> 09:00 a 19:00hs <br>
-          </p>
-          <p>Córdoba, Capital.</p>
-      </div>
-  </div>
-  </footer>
-      <!--link JS-->
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <div class="sellos1 mt-5">
+        <img src="../img/sello-1.png" alt="Sellos eco-friendly">
+        <img src="../img/sello-2.png" alt="Sellos eco-friendly">
+        <img src="../img/sello-3.png" alt="Sellos eco-friendly">
+    </div>
+
+    <footer>
+        <div class="sellos2">
+            <img src="../img/sello-1.png" alt="Sellos eco-friendly">
+            <img src="../img/sello-2.png" alt="Sellos eco-friendly">
+            <img src="../img/sello-3.png" alt="Sellos eco-friendly">
+        </div>
+        <div class="footer-container">
+            <div class="footer-text-container">
+                <p>
+                    &copy; 2023 <br>
+                    Política de privacidad <br>
+                </p>
+                <p>
+                    Horario de atención: <br>
+                    Lunes a viernes <br>
+                    09:00 a 19:00 hs <br>
+                </p>
+                <p>Córdoba, Capital.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
